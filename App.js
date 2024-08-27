@@ -1,7 +1,6 @@
-// const heading = React.createElement("hi",{},"hello");
-// const root = ReactDOM.createElement(document.getElementById("maindiv"));
-// root.render(heading);
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-const heading = React.createElement("h1", {}, "hello");
+const heading = React.createElement("h1", {}, "Next parceldd");
 const root = ReactDOM.createRoot(document.getElementById("maindiv"));
 root.render(heading);
